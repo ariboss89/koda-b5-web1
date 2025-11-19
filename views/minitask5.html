@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Latihan Form Koda 5" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <h1>Form Koda 5</h1>
+    </div>
+    <div>
+      <form>
+        <label for="nama">Nama Lengkap</label>
+        <input type="text" name="nama" id="nama" />
+        <br />
+        <label for="umur">Umur </label>
+        <input type="number" name="umur" id="umur" />
+        <br />
+        <br />
+        <label>Jenis Kelamin</label>
+        <div>
+          <label for="lk">Laki-Laki</label>
+          <input type="radio" name="gender" id="lk" />
+          <label for="lk">L</label>
+        </div>
+        <div>
+          <label for="p">Perempuan</label>
+          <input type="radio" name="gender" id="p" />
+          <label for="p">P</label>
+        </div>
+        <br />
+
+        <label for="rokok">Apakah anda seorang perokok ?</label>
+        <select name="rokok" id="isSmoking">
+          <option selected disabled>Pilih Jawaban</option>
+          <option value="Ya">Ya</option>
+          <option value="Tidak">Tidak</option>
+        </select>
+        <br />
+        <br />
+        <label>Brand rokok yang digunakan ?</label>
+        <div>
+          <input type="checkbox" name="dunhill" id="dunhill" />
+          <label for="dunhill"> Dunhill </label>
+        </div>
+        <div>
+          <input type="checkbox" name="gudangGaram" id="gudangGaram" />
+          <label for="gudangGaram"> Gudang Garam</label>
+        </div>
+        <div>
+          <input type="checkbox" name="marlboro" id="marlboro" />
+          <label for="reading"> Marlboro</label>
+        </div>
+        <div>
+          <input type="checkbox" name="sampoerna" id="sampoerna" />
+          <label for="reading"> Sampoerna</label>
+        </div>
+        <div>
+          <input type="checkbox" name="surya" id="surya" />
+          <label for="reading"> Surya</label>
+        </div>
+
+        <br />
+        <button type="submit">Submit</button>
+      </form>
+
+      <br />
+      <a href="/views/minitask6.html"> Melihat hasil form survey</a>
+      <br />
+      <br />
+      <a href="/index.html"> Kembali ke halaman index</a>
+    </div>
+  </body>
+</html>
